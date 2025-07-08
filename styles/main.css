@@ -30,27 +30,13 @@ header {
 }
 
 /* 메인 콘텐츠 */
-main {
-  padding: 2rem 0;
-}
 
 /* 푸터 */
-footer {
-  background-color: #f8f9fa;
-  padding: 1rem 0;
-  text-align: center;
-  border-top: 1px solid #e9ecef;
-  margin-top: 2rem;
-}
 
 /* 반응형 디자인 */
 @media (max-width: 768px) {
   .container {
     padding: 0 15px;
-  }
-  
-  main {
-    padding: 1rem 0;
   }
 }
 
@@ -95,7 +81,7 @@ footer {
 }
 .sr-main {
   background: #fff;
-  min-height: 80vh;
+  min-height: 60vh;
   padding: 2.5rem 0 3rem 0;
   flex: 1;
 }
