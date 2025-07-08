@@ -165,4 +165,84 @@ footer {
   .sr-car-card__img {
     max-width: 95vw;
   }
+}
+
+/* 푸터 스타일 */
+.sr-footer {
+  background: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+  padding: 2rem 0 1.5rem 0;
+  margin-top: 3rem;
+}
+
+.sr-footer__content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.sr-footer__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.sr-footer__company h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 0.8rem;
+}
+
+.sr-footer__company p,
+.sr-footer__contact p {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 0.4rem;
+  line-height: 1.5;
+}
+
+.sr-footer__contact p strong {
+  color: #444;
+  font-weight: 600;
+}
+
+.sr-footer__copyright {
+  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px solid #e9ecef;
+}
+
+.sr-footer__copyright p {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* 반응형 푸터 */
+@media (max-width: 768px) {
+  .sr-footer {
+    padding: 1.5rem 0 1rem 0;
+    margin-top: 2rem;
+  }
+  
+  .sr-footer__content {
+    padding: 0 1rem;
+  }
+  
+  .sr-footer__info {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .sr-footer__company h3 {
+    font-size: 1.2rem;
+  }
+  
+  .sr-footer__company p,
+  .sr-footer__contact p {
+    font-size: 0.9rem;
+  }
 } 
