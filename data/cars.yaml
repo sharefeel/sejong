@@ -1,0 +1,128 @@
+cars:
+  - id: 1
+    name: "그랜저 하이브리드"
+    category: "준대형"
+    image: "images/cars/grandeur.jpg"
+    price: 80000
+    description: "넓은 실내공간과 뛰어난 연비의 프리미엄 세단"
+    tags:
+      - "하이브리드"
+      - "준대형"
+      - "후방카메라"
+      - "네비게이션"
+      - "5인승"
+
+  - id: 2
+    name: "쏘렌토 하이브리드"
+    category: "SUV"
+    image: "images/cars/sorento.jpg"
+    price: 90000
+    description: "온 가족이 함께하는 넉넉한 7인승 SUV"
+    tags:
+      - "SUV"
+      - "하이브리드"
+      - "7인승"
+      - "후방카메라"
+      - "스마트크루즈"
+
+  - id: 3
+    name: "아이오닉 6"
+    category: "전기차"
+    image: "images/cars/ioniq6.jpg"
+    price: 95000
+    description: "미래를 달리는 공기역학적 디자인의 전기 세단"
+    tags:
+      - "전기차"
+      - "준대형"
+      - "후방카메라"
+      - "네비게이션"
+      - "5인승"
+
+  - id: 4
+    name: "카니발 하이리무진"
+    category: "미니밴"
+    image: "images/cars/carnival.jpg"
+    price: 120000
+    description: "VIP를 위한 최고급 9인승 리무진"
+    tags:
+      - "미니밴"
+      - "9인승"
+      - "후방카메라"
+      - "네비게이션"
+      - "VIP"
+
+  - id: 5
+    name: "투싼 하이브리드"
+    category: "SUV"
+    image: "images/cars/tucson.jpg"
+    price: 70000
+    description: "도심과 자연을 누비는 컴팩트 SUV"
+    tags:
+      - "SUV"
+      - "하이브리드"
+      - "5인승"
+      - "후방카메라"
+      - "스마트크루즈"
+
+  - id: 6
+    name: "K5 하이브리드"
+    category: "중형"
+    image: "images/cars/k5.jpg"
+    price: 60000
+    description: "세련된 디자인과 효율적인 연비의 중형 세단"
+    tags:
+      - "하이브리드"
+      - "중형"
+      - "5인승"
+      - "후방카메라"
+      - "네비게이션"
+
+  - id: 7
+    name: "EV6"
+    category: "전기차"
+    image: "images/cars/ev6.jpg"
+    price: 100000
+    description: "초고속 충전이 가능한 프리미엄 전기 SUV"
+    tags:
+      - "전기차"
+      - "SUV"
+      - "5인승"
+      - "후방카메라"
+      - "스마트크루즈"
+
+  - id: 8
+    name: "쏘나타"
+    category: "중형"
+    image: "images/cars/sonata.jpg"
+    price: 55000
+    description: "대한민국 대표 중형 세단의 품격"
+    tags:
+      - "중형"
+      - "5인승"
+      - "후방카메라"
+      - "네비게이션"
+
+  - id: 9
+    name: "팰리세이드"
+    category: "SUV"
+    image: "images/cars/palisade.jpg"
+    price: 110000
+    description: "압도적인 존재감의 플래그십 대형 SUV"
+    tags:
+      - "SUV"
+      - "7인승"
+      - "후방카메라"
+      - "네비게이션"
+      - "VIP"
+
+  - id: 10
+    name: "레이"
+    category: "경차"
+    image: "images/cars/ray.jpg"
+    price: 35000
+    description: "경제적인 유지비와 넉넉한 실내공간의 경차"
+    tags:
+      - "경차"
+      - "5인승"
+      - "후방카메라"
+      - "경제적"
